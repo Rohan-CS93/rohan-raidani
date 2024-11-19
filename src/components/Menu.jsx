@@ -83,7 +83,12 @@ export const Menu = (props) => {
             <SocialMediaButton
               platform="CV"
               tooltip="Resume"
-              onClick={() => onSectionChange(3)}
+              onClick={() =>
+                window.open(
+                  "https://rohan-raidani-ten.vercel.app/resume/Rohan-Raidani.pdf",
+                  "_blank"
+                )
+              } // Replace with your actual resume URL
             >
               <FaFilePdf size={24} />
             </SocialMediaButton>
@@ -92,10 +97,10 @@ export const Menu = (props) => {
               tooltip="Share"
               onClick={() =>
                 window.open(
-                  "https://api.whatsapp.com/send?text=I%20just%20came%20across%20Rohan%20Raidani%27s%20portfolio.%20If%20you%20appreciate%20great%20design%2C%20you%27re%20going%20to%20love%20this!%0ALink%20=>%20https%3A%2F%2Frohan-raidani.vercel.app%2F",
+                  "https://api.whatsapp.com/send?text=I%20just%20came%20across%20Rohan%20Raidani%27s%20portfolio.%20If%20you%20appreciate%20great%20design%2C%20you%27re%20going%20to%20love%20this!%0ALink%20=>%20https%3A%2F%2Frohan-raidani-ten.vercel.app%2F",
                   "_blank"
                 )
-              } // Replace with your actual portfolio link
+              }
             >
               <FaWhatsapp size={24} />
             </SocialMediaButton>
