@@ -43,6 +43,12 @@ export const web = [
     image: "projects/web/six.png",
     description: "Shirt designing using threejs",
   },
+  {
+    title: "simpliLearn",
+    url: "",
+    image: "projects/web/seven.png",
+    description: "Certificate on javascript",
+  },
 ];
 
 export const app = [
@@ -64,6 +70,12 @@ export const app = [
     image: "projects/app/three.png",
     description: "A contact application based on firebase",
   },
+  {
+    title: "Internshala",
+    url: "",
+    image: "projects/app/four.png",
+    description: "Certificate on android app development",
+  },
 ];
 export const cyber = [
   {
@@ -78,6 +90,43 @@ export const cyber = [
     image: "projects/cyber/two.png",
     description: "Certificate on ethical hacking",
   },
+  {
+    title: "Microsoft",
+    url: "",
+    image: "projects/cyber/three.png",
+    description: "Certificate on fundamental of machine learning",
+  },
+  {
+    title: "Internshala",
+    url: "",
+    image: "projects/cyber/four.png",
+    description: "Certificate on internship and job prepration",
+  },
+  {
+    title: "NPTEL",
+    url: "",
+    image: "projects/cyber/five.png",
+    description: "Certificate on introduction to IOT",
+  },
+  {
+    title: "NPTEL",
+    url: "",
+    image: "projects/cyber/six.png",
+    description: "Certificate on learning analytics tools",
+  },
+  {
+    title: "NPTEL",
+    url: "",
+    image: "projects/cyber/nine.png",
+    description: "Certificate on pyton for data science",
+  },
+  {
+    title: "nullClass",
+    url: "",
+    image: "projects/cyber/eight.png",
+    description: "Certificate on web-dev real-time projects",
+  },
+  
 ];
 
 // Add domain atom to manage current domain
