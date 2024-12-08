@@ -4,50 +4,131 @@ import { motion } from 'framer-motion';
 export const Skills = (props) => {
 
   const {domain} = props
-  const web = [
+  // const web = [
+  //   {
+  //     title: "Threejs / React Three Fiber",
+  //     level: 80,
+  //   },
+  //   {
+  //     title: "React / React Native",
+  //     level: 90,
+  //   },
+  //   {
+  //     title: "Nodejs",
+  //     level: 90,
+  //   },
+  //   {
+  //     title: "Typescript",
+  //     level: 60,
+  //   },
+  //   {
+  //     title: "3D Modeling",
+  //     level: 40,
+  //   },
+  // ];
+  // const app = [
+  //   {
+  //     title: "Firebase",
+  //     level: 80,
+  //   },
+  //   {
+  //     title: "Kotlin",
+  //     level: 90,
+  //   },
+  //   {
+  //     title: "Android Studios",
+  //     level: 90,
+  //   },
+  // ];
+  // const cyber = [
+  //   {
+  //     title: "Computer Networks",
+  //     level: 50,
+  //   },
+  //   {
+  //     title: "Kali",
+  //     level: 60,
+  //   },
+  // ];
+
+    const web = [
     {
-      title: "Threejs / React Three Fiber",
+      title: "MERN",
       level: 80,
     },
     {
-      title: "React / React Native",
+      title: "JavaScript",
       level: 90,
     },
     {
-      title: "Nodejs",
+      title: "jQuery",
+      level: 70,
+    },
+    {
+      title: "HTML & CSS",
       level: 90,
     },
     {
-      title: "Typescript",
-      level: 60,
+      title: "Tailwind CSS",
+      level: 80,
     },
     {
-      title: "3D Modeling",
-      level: 40,
+      title: "React",
+      level: 90,
+    },
+    {
+      title: "Three.js",
+      level: 80,
+    },
+    {
+      title: "Node.js",
+      level: 90,
+    },
+    {
+      title: "Blender",
+      level: 50,
     },
   ];
+
   const app = [
     {
       title: "Firebase",
       level: 80,
     },
     {
+      title: "Android Studios",
+      level: 90,
+    },
+    {
       title: "Kotlin",
       level: 90,
     },
     {
-      title: "Android Studios",
-      level: 90,
+      title: "Flutter",
+      level: 70,
     },
   ];
+
   const cyber = [
     {
-      title: "Computer Networks",
-      level: 50,
+      title: "GitHub",
+      level: 80,
     },
     {
-      title: "Kali",
-      level: 60,
+      title: "Postman",
+      level: 75,
+    },
+    {
+      title: "Vercel",
+      level: 70,
+    },
+    {
+      title: "Python",
+      level: 70,
+    },
+    {
+      title: "C++",
+      level: 65,
     },
   ];
 
