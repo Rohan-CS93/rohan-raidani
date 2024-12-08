@@ -54,15 +54,15 @@ export const Skills = (props) => {
     const web = [
     {
       title: "MERN",
-      level: 80,
+      level: 70,
     },
     {
       title: "JavaScript",
-      level: 90,
+      level: 80,
     },
     {
       title: "jQuery",
-      level: 70,
+      level: 60,
     },
     {
       title: "HTML & CSS",
@@ -78,45 +78,45 @@ export const Skills = (props) => {
     },
     {
       title: "Three.js",
-      level: 80,
+      level: 60,
     },
     {
       title: "Node.js",
-      level: 90,
+      level: 80,
     },
     {
       title: "Blender",
-      level: 50,
+      level: 70,
     },
   ];
 
   const app = [
     {
       title: "Firebase",
-      level: 80,
+      level: 60,
     },
     {
       title: "Android Studios",
-      level: 90,
+      level: 70,
     },
     {
       title: "Kotlin",
-      level: 90,
+      level: 70,
     },
     {
       title: "Flutter",
-      level: 70,
+      level: 30,
     },
   ];
 
   const cyber = [
     {
       title: "GitHub",
-      level: 80,
+      level: 70,
     },
     {
       title: "Postman",
-      level: 75,
+      level: 60,
     },
     {
       title: "Vercel",
@@ -128,7 +128,7 @@ export const Skills = (props) => {
     },
     {
       title: "C++",
-      level: 65,
+      level: 75,
     },
   ];
 
