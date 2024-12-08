@@ -61,10 +61,6 @@ export const Skills = (props) => {
       level: 80,
     },
     {
-      title: "jQuery",
-      level: 60,
-    },
-    {
       title: "HTML & CSS",
       level: 90,
     },
