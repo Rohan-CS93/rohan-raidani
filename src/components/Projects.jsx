@@ -21,7 +21,7 @@ export const web = [
   },
   {
     title: "Car Rental",
-    url: "https://car-rental-kohl-ten.vercel.app/",
+    url: "https://car-rental-rust-mu.vercel.app/",
     image: "projects/web/three.png",
     description: "MERN site for car dealers",
   },
