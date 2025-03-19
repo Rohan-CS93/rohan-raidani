@@ -96,10 +96,14 @@ export const Menu = (props) => {
               platform="Whatsapp"
               tooltip="Share"
               onClick={() =>
+                // window.open(
+                //   "https://api.whatsapp.com/send?text=I%20just%20came%20across%20Rohan%20Raidani%27s%20portfolio.%20If%20you%20appreciate%20great%20design%2C%20you%27re%20going%20to%20love%20this!%0ALink%20=>%20https%3A%2F%2Frohan-raidani-ten.vercel.app%2F",
+                //   "_blank"
+                // )
                 window.open(
-                  "https://api.whatsapp.com/send?text=I%20just%20came%20across%20Rohan%20Raidani%27s%20portfolio.%20If%20you%20appreciate%20great%20design%2C%20you%27re%20going%20to%20love%20this!%0ALink%20=>%20https%3A%2F%2Frohan-raidani-ten.vercel.app%2F",
-                  "_blank"
-                )
+      `https://docs.google.com/viewer?url=${window.location.origin}/resume/Rohan-Raidani.pdf&embedded=true`,
+      "_blank"
+    )
               }
             >
               <FaWhatsapp size={24} />
