@@ -101,7 +101,7 @@ export const Menu = (props) => {
                 //   "_blank"
                 // )
                 window.open(
-      `https://docs.google.com/viewer?url=${window.location.origin}/resume/Rohan-Raidani.pdf&embedded=true`,
+      `https://docs.google.com/viewer?url=https://rohan-raidani-ten.vercel.app/resume/Rohan-Raidani.pdf&embedded=true`,
       "_blank"
     )
               }
