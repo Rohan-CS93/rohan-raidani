@@ -84,8 +84,12 @@ export const Menu = (props) => {
               platform="CV"
               tooltip="Resume"
               onClick={() =>
+                // window.open(
+                //   "https://rohan-raidani-ten.vercel.app/resume/Rohan-Raidani.pdf",
+                //   "_blank"
+                // )
                 window.open(
-                  "https://rohan-raidani-ten.vercel.app/resume/Rohan-Raidani.pdf",
+                  "https://drive.google.com/file/d/1uoOpliWPYC3TQtXX249qBAg_2zah2HPb/view?usp=sharing",
                   "_blank"
                 )
               } // Replace with your actual resume URL
@@ -96,14 +100,11 @@ export const Menu = (props) => {
               platform="Whatsapp"
               tooltip="Share"
               onClick={() =>
-                // window.open(
-                //   "https://api.whatsapp.com/send?text=I%20just%20came%20across%20Rohan%20Raidani%27s%20portfolio.%20If%20you%20appreciate%20great%20design%2C%20you%27re%20going%20to%20love%20this!%0ALink%20=>%20https%3A%2F%2Frohan-raidani-ten.vercel.app%2F",
-                //   "_blank"
-                // )
                 window.open(
-      `https://docs.google.com/viewer?url=https://rohan-raidani-ten.vercel.app/resume/Rohan-Raidani.pdf&embedded=true`,
-      "_blank"
-    )
+                  "https://api.whatsapp.com/send?text=I%20just%20came%20across%20Rohan%20Raidani%27s%20portfolio.%20If%20you%20appreciate%20great%20design%2C%20you%27re%20going%20to%20love%20this!%0ALink%20=>%20https%3A%2F%2Frohan-raidani-ten.vercel.app%2F",
+                  "_blank"
+                )
+                
               }
             >
               <FaWhatsapp size={24} />
