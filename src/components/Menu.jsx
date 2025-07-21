@@ -89,7 +89,7 @@ export const Menu = (props) => {
                 //   "_blank"
                 // )
                 window.open(
-                  "https://drive.google.com/file/d/1uoOpliWPYC3TQtXX249qBAg_2zah2HPb/view?usp=sharing",
+                  "https://drive.google.com/file/d/1Fb5ITQ2z4Lh0PUPjqP2hPVM_76256I6r/view",
                   "_blank"
                 )
               } // Replace with your actual resume URL
