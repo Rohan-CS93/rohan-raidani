@@ -7,12 +7,12 @@ import { atom, useAtom } from "jotai";
 import { useEffect, useRef } from "react";
 
 export const web = [
-  {
-    title: "Movie-Store",
-    url: "https://movie-store-nu-seven.vercel.app/",
-    image: "projects/web/one.png",
-    description: "First MERN website",
-  },
+  // {
+  //   title: "Movie-Store",
+  //   url: "https://movie-store-nu-seven.vercel.app/",
+  //   image: "projects/web/one.png",
+  //   description: "First MERN website",
+  // },
   {
     title: "Wallet Wise",
     url: "https://wallet-wise-lilac.vercel.app/",
